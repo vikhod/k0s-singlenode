@@ -16,7 +16,7 @@ provider "openstack" {
 
 ### Network configuration ###
 
-## Add heare direct conection networks
+## Add direct conections with src and dst clouds
 
 data "openstack_networking_network_v2" "public" {
   name = "public"
